@@ -1,3 +1,4 @@
+import Data from "./Data"
 import Social from "./Social"
 import './home.css'
 
@@ -10,7 +11,7 @@ const Home = () => {
           <Social />
 
           <div className="home__img"></div>
-
+          <Data/>
         </div>
 
       </div>
