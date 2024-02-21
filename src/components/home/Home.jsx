@@ -1,4 +1,5 @@
 import Data from "./Data"
+import ScrollDown from "./ScrollDown"
 import Social from "./Social"
 import './home.css'
 
@@ -13,7 +14,7 @@ const Home = () => {
           <div className="home__img"></div>
           <Data/>
         </div>
-
+        <ScrollDown/>
       </div>
     </section>
   )
