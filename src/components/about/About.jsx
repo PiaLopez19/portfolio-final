@@ -1,6 +1,7 @@
 import cv from '../../assets/piaLopezCv.pdf'
 import './about.css'
 import aboutImg from '../../assets/about2.jpg'
+import Info from './Info'
 const About = () => {
   return (
     <section className="about section" id="about">
@@ -13,9 +14,9 @@ const About = () => {
         <img src={aboutImg} alt="" className="about__img" />
 
         <div className="about__data">
-          
+          <Info />
 
-          <p className="about__description">Soy desarrolladora web fullstack con un año de experiencia. Mi pasión por el diseño de páginas web se refleja en cada proyecto que abordo. Me encanta combinar creatividad y funcionalidad para crear experiencias digitales únicas. 
+          <p className="about__description">Soy desarrolladora web fullstack con un año de experiencia. Mi pasión por el diseño de páginas web se refleja en cada proyecto que abordo. Me encanta combinar creatividad y funcionalidad para crear experiencias digitales únicas.
           </p>
 
           <a download="" href={cv} className="button button--flex">Descargar CV
@@ -44,7 +45,7 @@ const About = () => {
                 fill="var(--container-color)"
               ></path>
             </svg>
-            </a>
+          </a>
         </div>
       </div>
     </section>
