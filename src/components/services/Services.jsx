@@ -1,5 +1,8 @@
 import { useState } from "react"
 import './services.css'
+import gunayala from '../../assets/gunayala.jpeg'
+import server from '../../assets/serveMaster.jpeg'
+import calculator from '../../assets/age-calculator.jpeg'
 
 const Services = () => {
 
@@ -17,7 +20,7 @@ const Services = () => {
         <div className="services__container container grid">
           <div className="services__content">
             <div>
-              <img className='services__icons' src="../../src/assets/gunayala.jpeg" alt="foto gunayala web" />
+              <img className='services__icons' src={gunayala} alt="foto gunayala web" />
               <h3 className="services__title">Gunayala <br /> Web</h3>
             </div>
 
@@ -58,7 +61,7 @@ const Services = () => {
 
           <div className="services__content">
             <div>
-              <img className='services__icons' src="../../src/assets/serveMaster.jpeg" alt="foto serve master web" />
+              <img className='services__icons' src={server} alt="foto serve master web" />
               <h3 className="services__title">Serve Master <br /> Web</h3>
             </div>
 
@@ -93,7 +96,7 @@ const Services = () => {
 
           <div className="services__content">
             <div>
-              <img className='services__icons' src="../../src/assets/age-calculator.jpeg" alt="foto age calculator web" />
+              <img className='services__icons' src={calculator} alt="foto age calculator web" />
               <h3 className="services__title">Age Calculator <br /> Web</h3>
             </div>
 
