@@ -9,7 +9,7 @@ const FrontEnd = () => {
             <i class='bx bx-badge-check'></i>
             <div>
               <h3 className="skills__name">HTML</h3>
-              <span className="skills__level">Basic</span>
+              {/* <span className="skills__level">Basic</span> */}
             </div>
           </div>
 
@@ -17,7 +17,7 @@ const FrontEnd = () => {
             <i class='bx bx-badge-check'></i>
             <div>
               <h3 className="skills__name">CSS</h3>
-              <span className="skills__level">Advance</span>
+              {/* <span className="skills__level">Advance</span> */}
             </div>
           </div>
 
@@ -25,7 +25,7 @@ const FrontEnd = () => {
             <i class='bx bx-badge-check'></i>
             <div>
               <h3 className="skills__name">Javascript</h3>
-              <span className="skills__level">Advanced</span>
+             {/*  <span className="skills__level">Advanced</span> */}
             </div>
           </div>
 
@@ -37,24 +37,24 @@ const FrontEnd = () => {
             <i class='bx bx-badge-check'></i>
             <div>
               <h3 className="skills__name">Boostrap</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
+{/*               <span className="skills__level">Intermediate</span>
+ */}            </div>
           </div>
 
           <div className="skills__data">
             <i class='bx bx-badge-check'></i>
             <div>
               <h3 className="skills__name">Tailwind</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
+{/*               <span className="skills__level">Intermediate</span>
+ */}            </div>
           </div>
 
           <div className="skills__data">
             <i class='bx bx-badge-check'></i>
             <div>
               <h3 className="skills__name">React</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
+{/*               <span className="skills__level">Intermediate</span>
+ */}            </div>
           </div>
 
           {/* <div className="skills__data">

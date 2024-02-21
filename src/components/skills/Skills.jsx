@@ -1,3 +1,4 @@
+import BackEnd from './BackEnd'
 import FrontEnd from './FrontEnd'
 import './skills.css'
 
@@ -12,6 +13,7 @@ const Skills = () => {
       <div className="skills__container container grid">
 
         <FrontEnd/>
+        <BackEnd/>
       </div>
     </section>
   )
